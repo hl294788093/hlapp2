@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 10rem;
+    height: 26rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    background: rgb(244,245,246);
+    margin-left: auto;
+    margin-right: auto;
+}
+.item1{
+    width: 10rem;
+    height: 1.3rem;
+    background: white;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 18px;
+    position: fixed;
+    z-index: 3;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+.item3{
+    width: 10rem;
+    background: white;
+    height: 1rem;
+    position: fixed;
+    top:1.3rem;
+    line-height: 1rem;
+    font-size: 14px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+.item3-2{
+    width: 0.8rem;
+    text-align: center;
+    border-left: 1px solid rgb(205,205,205);
+}
+
+.item7{
+    background: rgb(245,246,247);
+    width: 10rem;
+    height: 21rem;
+    position: relative;
+    top: 2.5rem;
+    font-size: 16px;
+    align-self: right;
+}
+.item7 .item7-1{
+    width: 10rem;
+    height: 4.5rem;
+    margin-bottom: 0.8rem;
+    
+}
+.item7 .item7-1 .item7-1-1{
+    width: 10rem;
+    background: white;
+    height: 2.25rem;
+    border-bottom:2px solid rgb(245,246,247);
+}
+.itema{
+    color: rgb(3,205,154);
+    width: 8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    float: right;
+}
+.itemb{
+    color: rgb(183,183,183);
+    width: 8rem;
+    height: 0.8rem;
+    float: right;
+    font-size: 10px;
+}
+
+
+.item9{
+    width: 10rem;
+    height: 1.5rem;
+    margin-top: .8rem;
+    border-top: 1px solid rgb(205,205,205);
+    display: flex;
+    /* line-height: 1rem;  */
+    position: fixed;
+    top: 15.6rem;
+    z-index: 3;
+    background: white;
+}
+.item9-1{
+    width: 2.5rem;
+    height: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item9-1 .item9-1-1{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+.item9-1 .item9-1-2{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    color: black;
+}
+.item9-1:hover {
+    background: rgb(242,242,242);
+}
+.item9 .item9-1 a{
+    color:rgb(107,107,107);
+}
+.item9 .item9-1 .a1{
+    color: rgb(0,204,153);
+}
+
+#mf{
+    width: 1rem;
+    height: 0.5rem;
+    background: rgb(0, 204, 153);
+    font-size: 10px;
+    float: left;
+    border-radius: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.5rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+#sf{
+    width: 1rem;
+    height: 0.5rem;
+    background: rgb(255,0,0);
+    font-size: 10px;
+    float: left;
+    border-radius: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.5rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}

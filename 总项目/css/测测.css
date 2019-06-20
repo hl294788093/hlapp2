@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 10rem;
+    height: 26rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    background: rgb(244,245,246);
+    margin-right: auto;
+    margin-left: auto;
+}
+.item1{
+    width: 10rem;
+    height: 1.3rem;
+    background: rgb(77,208,126);
+    text-align: center;
+    line-height: 1.3rem;
+    color: white;
+    font-size: 18px;
+    position: fixed;
+    z-index: 3;
+}
+
+.item2{
+    background: white;
+    position: fixed;
+    top: 1.3rem;
+    width: 10rem;
+    height: 2.4rem;
+    display: flex;
+    z-index: 3;
+}
+.item2 .item2-1{
+    width: 5rem;
+    border-bottom: 1px solid rgb(209,209,209);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.item2-1 .item2-1-1{
+    height: 1.8rem;
+}
+.item2-1 .item2-1-1 img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.item2-1 .item2-1-2{
+    height: 0.6rem;
+    font-size: 14px;
+}
+
+.item3{
+    width: 10rem;
+    background: white;
+    height: 1rem;
+    position: fixed;
+    top:3.7rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 14px;
+    z-index: 3;
+}
+
+.item4{
+    width: 10rem;
+    background: rgb(229,229,229);
+    height: 0.9rem;
+    position: fixed;
+    top: 4.7rem;
+    display: flex;
+    z-index: 3;
+}
+.item4 div{
+    width:1.4285714285714286rem;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 14px;
+}
+
+.item5{
+    width: 10rem;
+    background: white;
+    height: 1.5rem;
+    position: fixed;
+    top:5.6rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 14px;
+    display: flex;
+    border-bottom:1px solid rgb(209,209,209) ;
+    z-index: 3;
+}
+.item5 div{
+    width:1.4285714285714286rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+
+.item6{
+    width: 10rem;
+    background: white;
+    height: 1.2rem;
+    position: fixed;
+    top:7.1rem;
+    display: flex;
+    z-index: 3;
+}
+.item6 div{
+    width:2.5rem;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 14px;
+}
+
+.item7{
+    background: rgb(245,246,247);
+    width: 9rem;
+    height: 16rem;
+    position: relative;
+    top: 8.8rem;
+    border-left: 2px solid rgb(229,229,229);
+    align-self: right;
+}
+.item7 .item7-1{
+    width: 9rem;
+    height: 4.5rem;
+    /* border: 1px solid #000; */
+    margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+.item7 .item7-1 .item7-1-1{
+    width: 8rem;
+    background: white;
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.item7 .item7-1 .item7-1-1 .item7-1-1-1{
+    line-height: 1.2rem;
+    height: 1.2rem;
+    width: 7rem;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(209,209,209);
+}
+.item7 .item7-1 .item7-1-1 .item7-1-1-2{
+    height: 1.2rem;
+    width: 7rem;
+    font-size: 8px;
+    margin-top: 0.1rem;
+}
+.item7-1-1-2 img{
+    float: left;
+}
+.item7-1-1-2 span{
+    display: block;
+    float: left;
+    width: 5rem;
+    margin-top: 0.2rem;
+}
+.item7 .item7-1 .item7-1-2{
+    width: 8rem;
+    background: white;
+    height: 1.5rem;
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding-left: 0.4rem;
+    border-radius: 0.5rem;
+}
+#circle1{
+    background: rgb(77,208,126);
+    border-radius: 50%;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    left: -0.5rem;
+}
+#circle2{
+    background: rgb(77,208,126);
+    border-radius: 50%;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    left: -0.5rem;
+    top: 5.2rem;
+}
+#circle3{
+    background: rgb(77,208,126);
+    border-radius: 50%;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    left: -0.5rem;
+    top: 10.6rem;
+}
+
+.item9{
+    width: 10rem;
+    height: 1.5rem;
+    margin-top: .8rem;
+    border-top: 1px solid rgb(205,205,205);
+    display: flex;
+    /* line-height: 1rem;  */
+    position: fixed;
+    top: 15.6rem;
+    z-index: 3;
+    background: white;
+}
+.item9-1{
+    width: 2.5rem;
+    height: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item9-1 .item9-1-1{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+.item9-1 .item9-1-2{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    color: black;
+}
+.item9-1:hover {
+    background: rgb(242,242,242);
+}
+.item9 .item9-1 a{
+    color:rgb(107,107,107);
+}
+.item9 .item9-1 .a1{
+    color: rgb(0,204,153);
+}

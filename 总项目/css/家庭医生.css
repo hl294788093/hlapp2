@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 10rem;
+    /* height: 26rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item1{
+    width: 10rem;
+    height: 1.3rem;
+    background: white;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 18px;
+}
+.item1 .item1-1{
+    text-align: left;
+    float: left;
+    margin-left: 0.3rem;
+    width: 1.8rem;
+    margin-right: -1.8rem;
+}
+
+.item2{
+    width: 10rem;
+    height: 1.5rem;
+    background: rgb(245,246,247);
+}
+
+.item3{
+    width: 10rem;
+    height: 14.986667rem;
+    background: rgb(245,246,247);  
+    display: flex;
+    flex-direction: column;
+}
+.item3-1{
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.item3-1 .itema{
+    background: white;
+    width: 6rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+.item3-2{
+    height: 2rem;
+}
+.item3-2 img{
+    margin-right:1.3rem;
+    margin-left:0.8rem;
+}
+.item3-3{
+    height: 2.986667rem;
+}
+.item3-3 button{
+    background: white;
+    width: 4rem;
+    height: 1rem;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+}
+#itemb{
+    background: white;
+    width: 6rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+}
+#a{
+    position: absolute;
+    right: 1.6rem;
+    color: rgb(3,205,154);
+}

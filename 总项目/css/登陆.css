@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+}
+.box{
+    width: 10rem;
+    height: 17.786667rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item1{
+    width: 10rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: .3rem;
+}
+.item2-1{
+    width: 4rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 28px;
+    padding-left: 1rem;
+    font-weight:bold;
+}
+.item2-2{
+    width: 4rem;
+    height: 2.5rem;
+    text-align: right;
+    line-height: 3rem;
+    padding-right: 1rem;
+    font-size: 8px;
+    color:rgb(79,209,128);
+}
+.item3{
+    width: 10rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align:center
+}
+.item3 input{
+    width: 8rem;
+    height: 1.1rem;
+    background: white;
+    border: none;
+}
+.item4{
+    width: 10rem;
+    height: 2rem;
+    line-height: 3rem;
+    text-align: right;
+    font-size: 8px;
+    padding-right:1rem;
+    color:rgb(79,209,128);
+}
+.item5{
+    width: 10rem;
+    height: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+.item5 button{ 
+    width: 8rem;
+    height: 1.1rem;
+    font-size: 14px; 
+    background-color: rgb(66,184,241);
+    border-radius: .4rem;
+    text-align: center;
+    border: none;
+}
+.item6{
+    width: 10rem;
+    height: 5rem;
+    line-height: 3rem;
+}

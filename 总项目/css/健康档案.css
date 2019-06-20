@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 10rem;
+    /* height: 26rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background: rgb(244,245,246);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item0{
+    width: 10rem;
+    height: 1.3rem;
+    background: white;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 18px;
+}
+.item0 .item0-1{
+    text-align: left;
+    float: left;
+    margin-left: 0.3rem;
+    width: 1.8rem;
+}
+.item0 .item0-2{
+    float: right;
+    font-size: 10px;
+    line-height: 2rem;
+    margin-right: 0.4rem;
+}
+
+.item1{
+    background: url(../images/下载.png) no-repeat;
+    background-size:100%;
+    height: 4.1rem;
+    width: 10rem;
+    display: flex;
+    align-items:flex-end;
+}
+.item1 .item1-1{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 .item1-1 .item1-1-2{
+    height: 2rem;
+    width: 2rem;
+}
+.item1 .item1-2{
+    height: 3rem;
+    width: 7rem;
+}
+.item1 .item1-2 .item1-2-1{
+    height: 1rem;
+    font-size: 20px;
+    padding-top: 0.2rem;
+    margin-top: 0.2rem;
+}
+.item1 .item1-2 .item1-2-2{
+    height: 1rem;
+    font-size:18px; 
+}
+
+.item2{
+    width: 10rem;
+    height: 19.5rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top:0.5rem;
+}
+.item2 .item2-1{
+    width: 9rem;
+    height: 2rem;
+    background: white;
+    margin-bottom: 0.5rem;
+}
+.item2 .item2-1 .item2-1-1{
+    height: 1rem;
+    font-size: 16px;
+    line-height: 1rem;
+    display: flex;
+    border-bottom: 3px solid rgb(245,246,247);
+    margin-left: 0.2rem;
+}
+.item2 .item2-1 .item2-1-2{
+    height: 1rem;
+    font-size: 14px;
+    line-height: 1rem;
+    margin-left: 0.2rem;
+}
+
+.item9{
+    width: 10rem;
+    height: 1.5rem;
+    margin-top: .8rem;
+    border-top: 1px solid rgb(205,205,205);
+    display: flex;
+    /* line-height: 1rem;  */
+    position: fixed;
+    top: 15.6rem;
+    z-index: 3;
+    background: white;
+}
+.item9-1{
+    width: 2.5rem;
+    height: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item9-1 .item9-1-1{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+.item9-1 .item9-1-2{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    color: black;
+}
+.item9-1:hover {
+    background: rgb(242,242,242);
+}
+.item9 .item9-1 a{
+    color:rgb(107,107,107);
+}
+.item9 .item9-1 .a1{
+    color: rgb(0,204,153);
+}

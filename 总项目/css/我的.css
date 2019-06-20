@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 10rem;
+    height: 17.786667rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    background: rgb(244,245,246);
+    margin-right: auto;
+    margin-left: auto;
+}
+.item1{
+    width: 10rem;
+    height: 3.8rem;
+    background: rgb(49,212,171);
+    color: white;
+    font-size: 18px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.item1 .item1-1{
+    height: 0.8rem;
+    width: 10rem;
+    font-size: 12px;
+    text-align: right;
+    line-height: 0.8rem;
+}
+.item1 .item1-2{
+    height: 2rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.item1 .item1-2 .item1-2-1{
+    background: white;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.item1 .item1-3{
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+}
+.item1 .item1-3 .item1-3-1{
+    font-size: 18px;
+}
+
+.item2{
+    width: 10rem;
+    background: white;
+    height: 6.9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item2 .item2-1{
+    height: 1.38rem;
+    width: 10rem;
+    /* line-height: 1.38rem; */
+    border-bottom: 1px solid rgba(215, 215, 215,.5);
+    display: flex;
+}
+.item2 .item2-1 .item2-1-1{
+    width: 1rem;
+    display: flex;
+    padding-left: 0.4rem;
+    align-items: center;
+}
+
+.item2 .item2-1 .item2-1-2{
+    width: 9rem;
+    height: 1.38rem;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item3{
+    width: 10rem;
+    height: 6.9rem;
+    background: rgb(244,245,246);
+}
+.item3 .item3-1{
+    margin-top: 0.3rem;
+    background: white;
+    text-align: center;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 14px;
+    border: 1px solid rgb(215, 215, 215);
+}
+
+.item9{
+    width: 10rem;
+    height: 1.5rem;
+    margin-top: .8rem;
+    border-top: 1px solid rgb(205,205,205);
+    display: flex;
+    /* line-height: 1rem;  */
+    position: fixed;
+    top: 15.6rem;
+    z-index: 3;
+    background: white;
+}
+.item9-1{
+    width: 2.5rem;
+    height: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item9-1 .item9-1-1{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+.item9-1 .item9-1-2{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    color: black;
+}
+.item9-1:hover {
+    background: rgb(242,242,242);
+}
+.item9 .item9-1 a{
+    color:rgb(107,107,107);
+}
+.item9 .item9-1 .a1{
+    color: rgb(0,204,153);
+}
+
+#right{
+    height: 0.4rem;
+    margin-top: 0.5rem;
+    margin-right: 0.2rem;
+}

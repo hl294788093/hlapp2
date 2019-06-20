@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 10rem;
+    height: 26rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item1{
+    margin-top: 0.2rem;
+    width: 9.6rem;
+    height: 1rem; 
+    background: white;
+}
+#fd{
+    position: absolute;
+    top: 0.35rem;
+    left: 0.4rem;
+}
+.item1 input{
+    width: 9.6rem;
+    height: 0.8rem;
+    background: rgb(228, 228,228);
+    border-radius: .5rem;
+    border: none;
+    color: rgb(205,205,205);
+}
+.item2{
+    width: 10rem;
+    height: 1rem; 
+    background: rgb(242,242,242);
+    display: flex;
+}
+.item2-1{
+    width: 1.6666666666666667rem;
+    height: 1rem;
+    line-height: 1rem; 
+    text-align: center;
+}
+.item4{
+    width: 10rem; /* 750 */ 
+    height: 8rem;/* 150 */ 
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    border-bottom: 5px solid rgb(245, 246, 247);
+  }
+  .item4 .item4-1{
+    width: 10rem;
+    height: 1.7rem;
+    font-size: 18px;
+    padding-top: 0.1rem;
+    padding-left: 0.1rem;
+  }
+  .item4 .item4-2{
+    width: 10rem;
+    height: 5rem;
+    background: url(../images/blood.jpg) no-repeat;
+    background-size: 100%;
+  }
+  .item4 .item4-3{
+    width: 10rem;
+    height: 1.3rem;
+    display: flex;
+  }
+  .item4 .item4-3 .item4-3-1{
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item4 .item4-3 .item4-3-2{
+    width: 4.5rem;
+    height: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item4 .item4-3 .item4-3-2 .itema{
+    height: 0.7rem;
+    width: 4.5rem;
+    padding-top: 0.2rem;
+  }
+  .item4 .item4-3 .item4-3-2 .itemb{
+    height: 0.5rem;
+    width: 1.2rem;
+    border: 1px solid rgb(79, 208, 128);
+    color: rgb(79, 208, 128);
+  }
+  .item4 .item4-3 .item4-3-3{
+    width: 4rem;
+    height: 1.3rem;
+    line-height: 2rem;
+  }
+  #tx4{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+  }
+
+.item5{
+    width: 10rem;
+    height: 4rem;
+    background: rgb(245,246,247);
+}
+  
+.item9{
+    width: 10rem;
+    height: 1.5rem;
+    margin-top: .8rem;
+    border-top: 1px solid rgb(205,205,205);
+    display: flex;
+    /* line-height: 1rem;  */
+    position: fixed;
+    top: 15.6rem;
+    z-index: 3;
+    background: white;
+}
+.item9-1{
+    width: 2.5rem;
+    height: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item9-1 .item9-1-1{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+.item9-1 .item9-1-2{
+    width: 2.5rem;
+    height: 0.6rem;
+    text-align: center;
+    color: black;
+}
+.item9-1:hover {
+    background: rgb(242,242,242);
+}
+.item9 .item9-1 a{
+    color:rgb(107,107,107);
+}
+.item9 .item9-1 .a1{
+    color: rgb(0,204,153);
+}
